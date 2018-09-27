@@ -1,0 +1,33 @@
+<html>
+
+<head>javascript</head>
+
+<body>
+
+<input type="text" id="name" required/>
+
+<input type="text" id="age" required/>
+
+<button onclick="exec()" >thameem effect</button>
+
+
+<p id="result">result</p>
+
+
+<script>
+
+
+    function exec() {
+        let name = document.getElementById('name').value
+        let age = document.getElementById('age').value
+        let result = name +age  // name + age
+        console.log(name)
+        document.getElementById('result').innerHTML = result
+    }
+
+
+</script>
+
+
+</body>
+</html>
